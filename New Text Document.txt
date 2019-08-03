@@ -1,0 +1,5 @@
+aria-controls="dt" -----> selct entries
+aria-controls="dt" --------> add to search
+change search type to search
+
+add table id = dt

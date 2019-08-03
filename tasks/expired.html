@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Water Project</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="../vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="../vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="../vendors/css/vendor.bundle.addons.css">
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="../images/favicon.png" />
+
+</head>
+
+<body>
+    <div class="container-scroller">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+            <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
+                <a class="navbar-brand brand-logo" href="index.html">
+                    <h4 class="text-dark text-center mt-2"> Water project</h4>
+                </a>
+                <a class="navbar-brand brand-logo-mini" href="index.html">
+                    <h4 class="text-dark text-center mt-2">Water</h4>
+                </a>
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-center">
+                <ul class="navbar-nav navbar-nav-right">
+                    <li class="nav-item dropdown d-none d-xl-inline-block">
+                        <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+                     <span class="profile-text">Hello !</span>
+                     <i class="mdi mdi-account-outline mr-0 text-white"></i>
+                     </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
+                            <a class="dropdown-item p-0">
+                                <div class="py-3 px-4 d-flex align-items-center justify-content-center border-left border-right">
+                                    <i class="mdi mdi-account-outline mr-0 text-black"></i>Super Admin
+                                </div>
+                            </a>
+                            <a class="dropdown-item mt-2">
+                        Manage Accounts
+                        </a>
+                           
+                            <a class="dropdown-item">
+                        Sign Out
+                        </a>
+                        </div>
+                    </li>
+                </ul>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+               <span class="mdi mdi-menu"></span>
+               </button>
+            </div>
+        </nav>
+        <!-- partial -->
+        <div class="container-fluid page-body-wrapper">
+            <!-- partial:partials/_sidebar.html -->
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+                    <li class="nav-item nav-profile">
+                        <div class="nav-link">
+                            <div class="user-wrapper">
+                                <div class="profile-image">
+                                    <span style="font-size:2rem ; color:#5983e8;">
+                                  <i class="mdi mdi-account-outline "></i>
+                                  </span>
+                                </div>
+                                <div class="text-wrapper ">
+                                    <p class="profile-name">Super Admin</p>
+                                    <div>
+                                        <small class="designation text-muted">role</small>
+                                        <span class="status-indicator online"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text-muted under-user-wrapper d-lg-none">to modify login in a desktop</p>
+                            <a href="../index.html" class="btn btn-success btn-block">  <i class="mdi mdi-home"></i> Home
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#ui-basic-0" aria-expanded="false" aria-controls="ui-basic-0">
+                         <i class="menu-icon mdi mdi-map"></i>
+                         <span class="menu-title">Routes</span>
+                         <i class="menu-arrow"></i>
+                         </a>
+                        <div class="collapse" id="ui-basic-0">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../routes.html">Routes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../scheduels.html">Scheduels</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../readings.html">Readings</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#ui-basic-2" aria-expanded="false" aria-controls="ui-basic-2">
+                         <i class="menu-icon mdi mdi-speedometer"></i>
+                         <span class="menu-title">Meters</span>
+                         <i class="menu-arrow"></i>
+                         </a>
+                        <div class="collapse" id="ui-basic-2">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="region.html">Regions</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Zones.html">Zones</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Activemeters.html">Active Meters</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="cutoff.html">Cut Off</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="removedmeters.html">Removed Meters</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="stockmeters.html">Stock Meters</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Subscribers.html">Subscribers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Modifiedsubscribers.html">Modified Subscribers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="ExportDataandBilling.html">Export Data and Billing</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#ui-basic-1" aria-expanded="false" aria-controls="ui-basic-1">
+                         <i class="menu-icon mdi mdi-calendar-check"></i>
+                         <span class="menu-title">Tasks</span>
+                         <i class="menu-arrow"></i>
+                         </a>
+                        <div class="collapse" id="ui-basic-1">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../tasks/all.html">All Tasks</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../tasks/expired.html">Expired Tasks</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#ui-basic-3" aria-expanded="false" aria-controls="ui-basic-3">
+                         <i class="menu-icon mdi mdi-finance"></i>
+                         <span class="menu-title">Statistics</span>
+                         <i class="menu-arrow"></i>
+                         </a>
+                        <div class="collapse" id="ui-basic-3">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../statistics/readers.html">Readers Statistics</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../statistics/workers.html">Workers Statistics</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#ui-basic-4" aria-expanded="false" aria-controls="ui-basic-4">
+                         <i class="menu-icon mdi mdi-tune"></i>
+                         <span class="menu-title">Admin</span>
+                         <i class="menu-arrow"></i>
+                         </a>
+                        <div class="collapse" id="ui-basic-4">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../admin/users.html">Users</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../admin/permissions.html">Permissions</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../admin/groups.html">Groups</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../admin/lookups.html">Lookups</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../admin/settings.html">Settings</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../admin/action.html">Action Logs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../admin/exception.html">>Exception Logs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../admin/uploads.html">Uploads</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../admin/connected.html">Connected Devices</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../admin/addmobile.html">Add Mobile App Version</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../admin/download.html">Download Mobile App</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../admin/intervention.html">Intervention Problems</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../admin/flow.html">Flow Consumption</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+            </nav>
+            <!-- partial -->
+            <div class="main-panel">
+
+                <div class="row">
+                    <div class="col-md-6 ml-3 my-3 text-left">
+
+                        <h4 class=" text-danger"><i class="mdi mdi-calendar-check "></i> Expired Tasks <i class="mdi mdi-calendar-check"></i></h4>
+                    </div>
+                    <div class="col-md-5 my-3 mr-3 ">
+                        <a href="index.html" class="btn btn-light btn-block w-100 ml-auto" data-toggle="modal" data-target="#myModal"> 
+                                                     <i class="mdi mdi-plus"></i> Add</a>
+                    </div>
+                    
+                </div>
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog modal-md">
+                        <div class="modal-content">
+                            <!-- Modal Header -->
+                            <form class="mt-3 border-bottom border-secondary pb-2">
+                                <div class="modal-header">
+
+                                    <h4 class="modal-title"> Create Region</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+
+                                </div>
+                                <!-- Modal body -->
+                                <div class="modal-body">
+
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="ReadingdateLable">Assigned To</label>
+                                            <select class="form-control" id="zoneSelect">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                             </select>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="IndexLable">Task Type</label>
+                                            <select class="form-control" id="zoneSelect">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                             </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="IndexLable">Meter Type</label>
+                                            <select class="form-control" id="zoneSelect">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                             </select>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="IndexLable">Expiry date</label>
+                                            <input type="date" id="Indexinput" class="form-control" placeholder="0.00" required />
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <label for="IndexLable">Note</label>
+                                            <input type="text" id="Indexinput" class="form-control" placeholder="0.00" required />
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="IndexLable">Subscriber Reference</label>
+                                            <select class="form-control" id="zoneSelect" disabled>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                             </select>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+                                </div>
+                                <!-- Modal footer -->
+                                <div class="modal-footer"> <button class="btn btn-success" type="submit">Save</button>
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-wrapper">
+                    <!-- content -->
+
+                    <div class=" grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body ">
+                                <div class="row">
+                                   
+                                    <div class="table-responsive">
+                                        <table class="table table-hover table-striped border border-warning mt-2" id="dt">
+                                            <thead>
+                                                <tr>
+
+                                                    <th>Customer Name</th>
+                                                    <th>Customer reference</th>
+                                                    <th>Task type</th>
+                                                    <th>Meter type</th>
+                                                    <th>Assined to</th>
+                                                    <th>Expiry date</th>
+                                                    <th>Intervation date</th>
+                                                    <th>Status</th>
+                                                    <th></th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>xyz</td>
+                                                    <td>xyz</td>
+                                                    <td>xyz</td>
+                                                    <td>xyz</td>
+                                                    <td>xyz</td>
+                                                    <td>xyz</td>
+                                                    <td>xyz</td>
+                                                    <td><label class="badge badge-danger">Not Assigned</label> </td>
+                                                    <td> <a href="index.html" class="mx-0 my-2" data-toggle="modal" data-target="#myModal3"> 
+                                                            View </a>
+                                                         <a href="index.html" class="mx-0 my-2" data-toggle="modal" data-target="#myModal"> 
+                                               edit </a></td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td>xyz</td>
+                                                    <td>xyz</td>
+                                                    <td>xyz</td>
+                                                    <td>xyz</td>
+                                                    <td>xyz</td>
+                                                    <td>xyz</td>
+                                                    <td>xyz</td>
+                                                    <td><label class="badge badge-success">Assigned</label> </td>
+                                                    <td> <a href="index.html" class=" mx-0 my-2" data-toggle="modal" data-target="#myModal3"> 
+                                                                View </a>
+                                                        <a href="index.html" class="mx-0 my-2" data-toggle="modal" data-target="#myModal"> 
+                                                   edit </a>
+
+                                                        </td>
+
+                                                </tr>
+
+                                                <!-- The Modal -->
+                                                <div class="modal fade" id="myModal3">
+                                                    <div class="modal-dialog modal-md">
+                                                        <div class="modal-content">
+                                                            <!-- Modal Header -->
+                                                            <div class="modal-header">
+
+                                                                <h4 class="modal-title">Meter details</h4>
+                                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                            </div>
+                                                            <!-- Modal body -->
+                                                            <div class="modal-body mx-5">
+
+                                                                <div class="row">
+                                                                    <div class="col-8">
+                                                                        <p> Assigned To</p>
+
+                                                                        <p>Task Type</p>
+
+                                                                        <p> Meter Type</p>
+
+                                                                        <p> Expiry Date</p>
+
+                                                                        <p> Note</p>
+
+                                                                        <p> Subscriber Reference</p>
+
+                                                                    </div>
+                                                                    <div class="col-4">
+                                                                        <div class="display-1">
+                                                                            <i class="mdi  mdi-eye text-primary  "></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- Modal footer -->
+                                                            <div class="modal-footer">
+                                                            
+                                                                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- content -->
+                </div>
+                <!-- content-wrapper ends -->
+                <footer class="footer">
+                    <div class="container-fluid clearfix">
+                        <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2018
+                          <a href="http://www.ebml.gov.lb/english/home" target="_blank">Obeo Water powered by Scrumium</a>. All rights reserved.</span>
+                        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">
+                          <i class="mdi mdi-heart text-danger"></i>
+                          </span>
+                    </div>
+                </footer>
+                <!-- partial -->
+            </div>
+            <!-- main-panel ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+
+    <script src="../vendors/js/vendor.bundle.base.js"></script>
+    <script src="../vendors/js/vendor.bundle.addons.js"></script>
+    <script src="../table.js"></script>
+    <script src="../js/off-canvas.js"></script>
+    <script src="../js/misc.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="../js/dashboard.js"></script>
+    <!-- End custom js for this page-->
+</body>
+
+</html>

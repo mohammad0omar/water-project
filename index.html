@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Water Project</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="vendors/css/vendor.bundle.addons.css">
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="images/favicon.png" />
+  
+</head>
+
+<body>
+    <!-- contain all the page content -->
+    <div class="container-scroller">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+            <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
+                <!-- main logo show on screen large then -->
+                <a class="navbar-brand brand-logo" href="index.html">
+                    <h4 class="text-dark text-center mt-2"> Water project</h4>
+                </a>
+                <!-- logo show on small screen -->
+                <a class="navbar-brand brand-logo-mini" href="index.html">
+                    <h4 class="text-dark text-center mt-2">Water</h4>
+                </a>
+            </div>
+            <div class="navbar-menu-wrapper d-flex align-items-center">
+                <ul class="navbar-nav navbar-nav-right">
+                    <li class="nav-item dropdown d-none d-xl-inline-block">
+                        <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+                    <span class="profile-text">Hello !</span>
+                    <i class="mdi mdi-account-outline mr-0 text-white"></i>
+                  </a>
+                        <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
+                            <a class="dropdown-item p-0">
+                                <div class="py-3 px-4 d-flex align-items-center justify-content-center border-left border-right">
+                                    <i class="mdi mdi-account-outline mr-0 text-black"></i>Super Admin
+                                </div>
+
+
+                            </a>
+                            <a class="dropdown-item mt-2" href="Manage.html">
+                      Manage Accounts
+                    </a>
+                            <a class="dropdown-item" href="">
+                      Sign Out
+                    </a>
+                        </div>
+                    </li>
+                </ul>
+                <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+                <span class="mdi mdi-menu"></span>
+              </button>
+            </div>
+        </nav>
+        <!-- end partial navbar -->
+
+        <!-- partial -->
+        <!-- Container for this section of the page exluding the top navbar -->
+        <div class="container-fluid page-body-wrapper">
+            <!-- partial:partials/_sidebar.html -->
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+                    <li class="nav-item nav-profile">
+                        <div class="nav-link">
+                            <div class="user-wrapper">
+                                <div class="profile-image">
+                                    <span style="font-size:2rem ; color:#5983e8;">
+                                  <i class="mdi mdi-account-outline "></i>
+                                  </span>
+                                </div>
+                                <div class="text-wrapper ">
+                                    <p class="profile-name">Super Admin</p>
+                                    <div>
+                                        <small class="designation text-muted">role</small>
+                                        <span class="status-indicator online"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text-muted under-user-wrapper d-lg-none">to modify login in a desktop</p>
+                            <a href="index.html" class="btn btn-success btn-block">  <i class="mdi mdi-home"></i> Home
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#ui-basic-0" aria-expanded="false" aria-controls="ui-basic-0">
+                         <i class="menu-icon mdi mdi-map"></i>
+                         <span class="menu-title">Routes</span>
+                         <i class="menu-arrow"></i>
+                         </a>
+                        <div class="collapse" id="ui-basic-0">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="routes.html">Routes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="scheduels.html">Scheduels</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="readings.html">Readings</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#ui-basic-2" aria-expanded="false" aria-controls="ui-basic-2">
+                         <i class="menu-icon mdi mdi-speedometer"></i>
+                         <span class="menu-title">Meters</span>
+                         <i class="menu-arrow"></i>
+                         </a>
+                        <div class="collapse" id="ui-basic-2">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="meter/region.html">Regions</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="meter/Zones.html">Zones</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="meter/Activemeters.html">Active Meters</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="meter/cutoff.html">Cut Off</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="meter/removedmeters.html">Removed Meters</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="meter/stockmeters.html">Stock Meters</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="meter/Subscribers.html">Subscribers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="meter/Modifiedsubscribers.html">Modified Subscribers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="meter/ExportDataandBilling.html">Export Data and Billing</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#ui-basic-1" aria-expanded="false" aria-controls="ui-basic-1">
+                         <i class="menu-icon mdi mdi-calendar-check"></i>
+                         <span class="menu-title">Tasks</span>
+                         <i class="menu-arrow"></i>
+                         </a>
+                        <div class="collapse" id="ui-basic-1">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="tasks/all.html">All Tasks</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="tasks/expired.html">Expired Tasks</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#ui-basic-3" aria-expanded="false" aria-controls="ui-basic-3">
+                         <i class="menu-icon mdi mdi-finance"></i>
+                         <span class="menu-title">Statistics</span>
+                         <i class="menu-arrow"></i>
+                         </a>
+                        <div class="collapse" id="ui-basic-3">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="statistics/readers.html">Readers Statistics</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="statistics/workers.html">Workers Statistics</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#ui-basic-4" aria-expanded="false" aria-controls="ui-basic-4">
+                         <i class="menu-icon mdi mdi-tune"></i>
+                         <span class="menu-title">Admin</span>
+                         <i class="menu-arrow"></i>
+                         </a>
+                        <div class="collapse" id="ui-basic-4">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admin/users.html">Users</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admin/permissions.html">Permissions</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admin/groups.html">Groups</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admin/lookups.html">Lookups</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admin/settings.html">Settings</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admin/action.html">Action Logs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admin/exception.html">>Exception Logs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admin/uploads.html">Uploads</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admin/connected.html">Connected Devices</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admin/addmobile.html">Add Mobile App Version</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admin/download.html">Download Mobile App</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admin/intervention.html">Intervention Problems</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="admin/flow.html">Flow Consumption</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href=""></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+            </nav>
+
+
+            <!-- partial -->
+            <div class="main-panel">
+                <div class="m-3 text-left">
+                    <h4>Main Dashboard</h4>
+                </div>
+                <div class="content-wrapper">
+                    <div class="row mb-4">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect2">Regions</label>
+                                <!-- region select -->
+                                <select class="form-control" chosen="" ng-model="selectedregions" ng-change="ApplyFilter();" placeholder-text-single="'Select region'"
+                                    ng-options="obj.Name for obj in regions track by obj.ID">
+                              <option value="?" selected="selected"></option>
+                            </select>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 ">
+                            <div class="row  pt-4">
+                                <!-- time filter  -->
+                                <div class="btn-group btn-group-toggle row ml-5" data-toggle="buttons">
+                                    <label class="btn btn-primary active col-md-4">
+                                              <input type="radio" name="options" id="option1" autocomplete="off" checked> Today
+                                            </label>
+                                    <label class="btn btn-primary col-md-4">
+                                              <input type="radio" name="options" id="option2" autocomplete="off"> This Week
+                                            </label>
+                                    <label class="btn btn-primary col-md-4">
+                                              <input type="radio" name="options" id="option3" autocomplete="off"> This Month
+                                            </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+                            <div class="card card-statistics">
+                                <div class="card-body">
+                                    <div class="clearfix">
+                                        <div class="float-left">
+                                            <i class="mdi mdi-book-open-page-variant text-danger icon-lg"></i>
+                                        </div>
+                                        <div class="float-right">
+                                            <p class="mb-0 text-right ng-binding">READINGS</p>
+                                            <div class="fluid-container">
+                                                <!-- reading value -->
+                                                <h3 class="font-weight-medium text-right mb-0">0000</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted mt-3 mb-0">
+                                        <i class="mdi mdi-alert-octagon mr-1" aria-hidden="true"></i> Lorem Ipsum
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+                            <div class="card card-statistics">
+                                <div class="card-body">
+                                    <div class="clearfix">
+                                        <div class="float-left">
+                                            <i class="mdi mdi-calendar-check text-warning icon-lg"></i>
+                                        </div>
+                                        <div class="float-right">
+                                            <p class="mb-0 text-right ng-binding">SCHEDULES</p>
+                                            <div class="fluid-container">
+                                                 <!-- SCHEDULES value -->
+                                                <h3 class="font-weight-medium text-right mb-0">0000</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted mt-3 mb-0">
+                                        <i class="mdi mdi-bookmark-outline mr-1" aria-hidden="true"></i> Lorem Ipsum
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+                            <div class="card card-statistics">
+                                <div class="card-body">
+                                    <div class="clearfix">
+                                        <div class="float-left">
+                                            <i class="mdi mdi-gesture-tap text-success icon-lg"></i>
+                                        </div>
+                                        <div class="float-right">
+                                            <p class="mb-0 text-right ng-binding">MANUAL</p>
+                                            <div class="fluid-container">
+                                                   <!-- MANUAL value -->
+                                                <h3 class="font-weight-medium text-right mb-0">0000</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted mt-3 mb-0">
+                                        <i class="mdi mdi-calendar mr-1" aria-hidden="true"></i> Lorem Ipsum
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 grid-margin stretch-card">
+                            <div class="card card-statistics">
+                                <div class="card-body">
+                                    <div class="clearfix">
+                                        <div class="float-left">
+                                            <i class="mdi mdi-clock-alert text-info icon-lg"></i>
+                                        </div>
+                                        <div class="float-right">
+                                            <p class="mb-0 text-right ng-binding">EXCEPTIONS</p>
+                                            <div class="fluid-container">
+                                                   <!-- EXCEPTIONS value -->
+                                                <h3 class="font-weight-medium text-right mb-0">0000</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted mt-3 mb-0">
+                                        <i class="mdi mdi-reload mr-1" aria-hidden="true"></i> Lorem Ipsum
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <h4 class="card-title mt-4 ml-3">Readings to year</h4>
+                                <div class="card-body">
+                                    <canvas id="bar" class="" chart-data="rtydata" chart-labels="rtylabels" chart-options="optionschars" width="843" height="420">
+                                    </canvas>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <h4 class="card-title mt-4 ml-3">Tasks per Zone</h4>
+                                <div class="card-body">
+                                    <canvas id="barperZone" chart-data="rtyTperZonedata" chart-labels="rtyTperZonelabels" chart-series="rtyseries"></canvas>
+                                  
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <h4 class="card-title mt-4 ml-3"> Task Per Type</h4>
+                                <div class="card-body">
+                                    <canvas id="myChart2"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <h4 class="card-title mt-4 ml-3"> Task Per status</h4>
+                                <div class="card-body">
+                                    <canvas id="myChart3"></canvas>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <h4 class="card-title mt-4 ml-3"> Task Per Status Per Type</h4>
+                                <div class="card-body">
+                                    <canvas id="myChart4"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <h4 class="card-title mt-4 ml-3"> Task Per Expiry Per Type</h4>
+                                <div class="card-body">
+                                    <canvas id="myChart5"></canvas>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- content-wrapper ends -->
+                <footer class="footer">
+                    <div class="container-fluid clearfix">
+                        <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2018
+                            <a href="http://www.ebml.gov.lb/english/home" target="_blank">Obeo Water powered by Scrumium</a>. All rights reserved.</span>
+                        <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">
+                                    <i class="mdi mdi-heart text-danger"></i>
+                                  </span>
+                    </div>
+                </footer>
+                <!-- partial -->
+            </div>
+            <!-- main-panel ends -->
+
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="vendors/js/vendor.bundle.base.js"></script>
+    <script src="vendors/js/vendor.bundle.addons.js"></script>
+
+    <script src="chart.js"></script>
+
+    <!-- endinject -->
+  
+    <script src="js/off-canvas.js"></script>
+    <script src="js/misc.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="js/dashboard.js"></script>
+    <!-- End custom js for this page-->
+</body>
+
+</html>
